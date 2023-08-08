@@ -1,0 +1,13 @@
+syntax = "proto3";
+package protos;
+
+option go_package = "/protos";
+
+message ListInt32 {
+  repeated int32 items = 1;
+}
+
+message ListSfixed32 {
+  repeated sfixed32 items = 1;
+}
+
